@@ -1,12 +1,6 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 
-/*
-	Photon by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -244,7 +238,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4em);
-		width: 60em;
+		width: 80em;
 	}
 
 		.container.xsmall {
@@ -287,7 +281,6 @@ input, select, textarea {
 			}
 
 		}
-
 /* Row */
 
 	.row {
@@ -374,7 +367,7 @@ input, select, textarea {
 		}
 
 		.row > .col-6 {
-			width: 50%;
+			width: 100%;
 		}
 
 		.row > .off-6 {
@@ -2050,6 +2043,17 @@ input, select, textarea {
 			margin: 0;
 		}
 
+		.coreTools {
+			display: grid;
+			grid-template-rows: repeat(2,1fr);
+			grid-template-columns: repeat(3,1fr);
+			grid-gap: 2px;
+		}
+		.tools,.tools.p {
+			grid-row: span 1;
+			grid-column: span 1;
+		}
+
 		header.major p {
 			margin: 0.7em 0 0 0;
 		}
@@ -3214,6 +3218,17 @@ input, select, textarea {
 			#header {
 				padding: 6em 0 6em 0 ;
 			}
+		/*core tools section */
+		ul.major-icons {
+			display: grid;
+			grid-template-rows: repeat(2,auto);
+			grid-template-columns: repeat(3,auto);
+			grid-gap: 2px;
+		}
+		.tools {
+			grid-row: span 1;
+			grid-column: span 1;
+		}
 
 	}
 
@@ -3263,6 +3278,17 @@ input, select, textarea {
 				#header br {
 					display: inline;
 				}
+		/* core tools */
+				ul.major-icons {
+					display: grid;
+					grid-template-rows: repeat(2,1fr);
+					grid-template-columns: repeat(3,1fr);
+					grid-gap: 2px;
+				}
+				.tools,.tools.p {
+					grid-row: span 1;
+					grid-column: span 1;
+				}
 
 		/* Footer */
 
@@ -3299,6 +3325,18 @@ input, select, textarea {
 
 			#header {
 				padding: 8em 3em 8em 3em ;
+			}
+
+			/* core tools */
+			ul.major-icons {
+				display: grid;
+				grid-template-rows: repeat(3,1fr);
+				grid-template-columns: repeat(2,1fr);
+				grid-gap: 2px;
+			}
+			.tools {
+				grid-row: span 1;
+				grid-column: span 1;
 			}
 
 		/* Footer */
@@ -3345,6 +3383,18 @@ input, select, textarea {
 
 			h4 {
 				font-size: 1em;
+			}
+
+			/* core tools */
+			ul.major-icons {
+				display: grid;
+				grid-template-rows: repeat(1,1fr);
+				grid-template-columns: repeat(1,1fr);
+				grid-gap: 2px;
+			}
+			.tools, {
+				grid-row: span 1;
+				grid-column: span 1;
 			}
 
 		/* List */
@@ -3423,6 +3473,18 @@ input, select, textarea {
 				padding: 2em 1.5em 0.1em 1.5em ;
 			}
 
+			/* core tools */
+			ul.major-icons {
+				display: grid;
+				grid-template-rows: repeat(1,1fr);
+				grid-template-columns: repeat(1,1fr);
+				grid-gap: 2px;
+			}
+			.tools {
+				grid-row: span 1;
+				grid-column: span 1;
+			}
+
 		/* Header */
 
 			#header {
@@ -3482,6 +3544,17 @@ input, select, textarea {
 
 			#footer {
 				padding: 2em 1em 2em 1em ;
+			}
+			/* core tools */
+			ul.major-icons {
+				display: grid;
+				grid-template-rows: repeat(1,1fr);
+				grid-template-columns: repeat(1,1fr);
+				grid-gap: 2px;
+			}
+			.tools {
+				grid-row: span 1;
+				grid-column: span 1;
 			}
 
 	}
