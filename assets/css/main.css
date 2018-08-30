@@ -2047,9 +2047,12 @@ input, select, textarea {
 			display: grid;
 			grid-template-rows: repeat(2,1fr);
 			grid-template-columns: repeat(3,1fr);
-			grid-gap: 2px;
+			grid-gap: 3px;
 		}
-		.tools,.tools.p {
+		.tools{
+			justify-items: center;
+					justify-content: center;
+					align-items: center;
 			grid-row: span 1;
 			grid-column: span 1;
 		}
@@ -3223,9 +3226,12 @@ input, select, textarea {
 			display: grid;
 			grid-template-rows: repeat(2,auto);
 			grid-template-columns: repeat(3,auto);
-			grid-gap: 2px;
+			grid-gap: 3px;
 		}
 		.tools {
+			justify-items: center;
+					justify-content: center;
+					align-items: center;
 			grid-row: span 1;
 			grid-column: span 1;
 		}
@@ -3283,9 +3289,12 @@ input, select, textarea {
 					display: grid;
 					grid-template-rows: repeat(2,1fr);
 					grid-template-columns: repeat(3,1fr);
-					grid-gap: 2px;
+					grid-gap: 3px;
 				}
-				.tools,.tools.p {
+				.tools {
+					justify-items: center;
+					justify-content: center;
+					align-items: center;
 					grid-row: span 1;
 					grid-column: span 1;
 				}
@@ -3332,9 +3341,12 @@ input, select, textarea {
 				display: grid;
 				grid-template-rows: repeat(3,1fr);
 				grid-template-columns: repeat(2,1fr);
-				grid-gap: 2px;
+				grid-gap: 3px;
 			}
 			.tools {
+				justify-items: center;
+				justify-content: center;
+				align-items: center;
 				grid-row: span 1;
 				grid-column: span 1;
 			}
@@ -3390,9 +3402,12 @@ input, select, textarea {
 				display: grid;
 				grid-template-rows: repeat(1,1fr);
 				grid-template-columns: repeat(1,1fr);
-				grid-gap: 2px;
+				grid-gap: 3px;
 			}
 			.tools, {
+				justify-items: center;
+					justify-content: center;
+					align-items: center;
 				grid-row: span 1;
 				grid-column: span 1;
 			}
@@ -3478,9 +3493,12 @@ input, select, textarea {
 				display: grid;
 				grid-template-rows: repeat(1,1fr);
 				grid-template-columns: repeat(1,1fr);
-				grid-gap: 2px;
+				grid-gap: 3px;
 			}
 			.tools {
+				justify-items: center;
+					justify-content: center;
+					align-items: center;
 				grid-row: span 1;
 				grid-column: span 1;
 			}
@@ -3550,9 +3568,12 @@ input, select, textarea {
 				display: grid;
 				grid-template-rows: repeat(1,1fr);
 				grid-template-columns: repeat(1,1fr);
-				grid-gap: 2px;
+				grid-gap: 3px;
 			}
 			.tools {
+				justify-items: center;
+					justify-content: center;
+					align-items: center;
 				grid-row: span 1;
 				grid-column: span 1;
 			}
